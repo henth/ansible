@@ -1,0 +1,9 @@
+- name: Copia de arquivos
+  hosts: windows
+
+  tasks:
+
+    - name: Copiando arquivo de inventario
+      ansible.windows.win_copy:
+        src: /opt/Ansible/inventory
+        dest: C:\Temp\inventory.txt

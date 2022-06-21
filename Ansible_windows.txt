@@ -1,0 +1,9 @@
+Pre-Requisitos - Client
+- Powershell 3.0
+- WinRM
+- NetFramework 3.0
+
+Requisitos Ansible Server - Host
+- pip
+- python
+- pywinrm

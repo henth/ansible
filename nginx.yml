@@ -1,0 +1,11 @@
+---
+- name: Instalando Nginx
+  hosts: linux
+  remote_user: vagrant
+  become: yes
+
+  tasks:
+  - name: Instalando pacotes
+    ansible.builtin.package:
+      name: nginx
+      state: latest
